@@ -1,0 +1,592 @@
+{
+  "data": [
+    {
+      "id": "a01",
+      "name": "DAILY 3.0 SHOES",
+      "price": "62",
+      "brand": "adidas",
+      "inventory": "10",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a02",
+      "name": "Questar Flow NXT Running Shoes",
+      "price": "75",
+      "brand": "adidas",
+      "inventory": "8",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a03",
+      "name": "Ultraboost 22 Running Shoes",
+      "price": "143",
+      "brand": "adidas",
+      "inventory": "6",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a04",
+      "name": "Stan Smith Shoes",
+      "price": "80",
+      "brand": "adidas",
+      "inventory": "2",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a05",
+      "name": "Nite Jogger Shoes",
+      "price": "170",
+      "brand": "adidas",
+      "inventory": "12",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a06",
+      "name": "Superstar Shoes",
+      "price": "100",
+      "brand": "adidas",
+      "inventory": "30",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a07",
+      "name": "Ultra 4DFWD Running Shoes",
+      "price": "220",
+      "brand": "adidas",
+      "inventory": "20",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a08",
+      "name": "NMD_R1 Shoes",
+      "price": "128",
+      "brand": "adidas",
+      "inventory": "15",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a09",
+      "name": "NMD_R1 Primeblue Shoes",
+      "price": "160",
+      "brand": "adidas",
+      "inventory": "7",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Kaptir 2.0 Shoes",
+      "price": "72",
+      "brand": "adidas",
+      "inventory": "6",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n01",
+      "name": "Nike Pegasus 39",
+      "price": "103",
+      "brand": "nike",
+      "inventory": "10",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n02",
+      "name": "Nike Air Max 270",
+      "price": "160",
+      "brand": "nike",
+      "inventory": "10",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n03",
+      "name": "Air Jordan 1 Retro High OG",
+      "price": "180",
+      "brand": "nike",
+      "inventory": "20",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n04",
+      "name": "Air Jordan 7 Retro",
+      "price": "210",
+      "brand": "nike",
+      "inventory": "16",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n05",
+      "name": "Air Jordan XXXVII",
+      "price": "185",
+      "brand": "nike",
+      "inventory": "50",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n06",
+      "name": "Air Jordan 2 Retro",
+      "price": "200",
+      "brand": "nike",
+      "inventory": "3",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nb01",
+      "name": "990v6",
+      "price": "200",
+      "brand": "newbalance",
+      "inventory": "10",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nb02",
+      "name": "574 Core",
+      "price": "85",
+      "brand": "newbalance",
+      "inventory": "10",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nb03",
+      "name": "2002R",
+      "price": "140",
+      "brand": "newbalance",
+      "inventory": "20",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nb04",
+      "name": "Fresh Foam X Hierro v7",
+      "price": "200",
+      "brand": "newbalance",
+      "inventory": "20",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nb05",
+      "name": "993 Core",
+      "price": "200",
+      "brand": "newbalance",
+      "inventory": "12",
+      "specs": [
+        {
+          "name": "size",
+          "values": [
+            { "name": "7" },
+            { "name": "7.5" },
+            { "name": "8" },
+            { "name": "8.5" },
+            { "name": "9" },
+            { "name": "9.5" },
+            { "name": "10" },
+            { "name": "10.5" },
+            { "name": "11" },
+            { "name": "11.5" },
+            { "name": "12" },
+            { "name": "12.5" },
+            { "name": "13" },
+            { "name": "14" }
+          ]
+        }
+      ]
+    }
+  ]
+}
