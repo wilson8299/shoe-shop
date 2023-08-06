@@ -2,6 +2,8 @@
 
 Shoe Shop is an exercise in creating an online shoe store that offers Nike, Adidas, and New Balance shoes.
 
+[Visit Website](https://wilson8299.github.io/shoe-shop/#/)
+
 ## Display
 <div align="center" width="100%">
   <img src="https://github.com/wilson8299/Portfolio/blob/main/src/assets/images/shoe-shop-img-1-min.png?raw=true" alt="shoe-shop-image-1" width="85%"/><br/><br/>
