@@ -1,17 +1,17 @@
 <script setup>
 import { RouterLink } from "vue-router";
-import AppHeaderNav from "./app-header-nav.vue";
-import AppHeaderCart from "./app-header-cart.vue";
+import AppHeaderNav from "./AppHeaderNav.vue";
+import AppHeaderCart from "./AppHeaderCart.vue";
 </script>
 
 <template>
   <header class="app-header">
     <div class="container">
       <h1 class="logo">
-        <RouterLink to="/">ShoeShop</RouterLink>
+        <router-link to="/">ShoeShop</router-link>
       </h1>
-      <AppHeaderNav />
-      <AppHeaderCart />
+      <app-header-nav />
+      <app-header-cart />
     </div>
   </header>
 </template>

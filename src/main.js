@@ -7,7 +7,6 @@ import App from "./App.vue";
 import router from "./router";
 import SsUI from "./components";
 import "@/utils/fontawesome";
-
 import "normalize.css";
 import "@/assets/styles/common.less";
 import "vue-toastification/dist/index.css";

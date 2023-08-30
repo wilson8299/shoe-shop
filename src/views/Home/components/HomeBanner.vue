@@ -8,7 +8,7 @@ const bannerList = [
 
 <template>
   <div class="home-banner">
-    <SsSlider :sliders="bannerList" auto-play />
+    <ss-slider :sliders="bannerList" auto-play />
   </div>
 </template>
 

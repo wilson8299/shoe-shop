@@ -1,8 +1,8 @@
 <script setup>
 import useStore from "@/store";
 import shoe from "@/mock/shoe.json";
-import GoodsImage from "./components/goods-image";
-import GoodsSku from "./components/goods-sku";
+import GoodsImage from "./components/GoodsImage";
+import GoodsSku from "./components/GoodsSku";
 import { useToast } from "vue-toastification";
 import { computed, onMounted, ref } from "vue";
 import { useRoute } from "vue-router";
@@ -65,7 +65,7 @@ const addCart = () => {
       <div class="goods-info" v-if="goods">
         <div class="media">
           <div class="goods-image">
-            <GoodsImage :images="goods.images" />
+            <goods-image :images="goods.images" />
           </div>
           <ul class="goods-sales">
             <li>
@@ -97,16 +97,16 @@ const addCart = () => {
               <span>{{ goods.price }}</span>
             </p>
           </div>
-          <GoodsSku :goods="goods" @change="changeSku" />
-          <SsCount is-label v-model="count" :min="1" :max="countMax" />
-          <SsButton
+          <goods-sku :goods="goods" @change="changeSku" />
+          <ss-count is-label v-model="count" :min="1" :max="countMax" />
+          <ss-button
             @click="addCart"
             size="middle"
             type="primary"
             style="margin-top: 40px"
           >
             加入購物車
-          </SsButton>
+          </ss-button>
         </div>
       </div>
       <div class="goods-footer" v-if="goods">

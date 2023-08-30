@@ -6,14 +6,14 @@ const { cart } = useStore();
 
 <template>
   <div class="cart">
-    <RouterLink to="/cart" class="curr">
+    <router-link to="/cart" class="curr">
       <font-awesome-icon :icon="['fas', 'cart-plus']" />
       <em> {{ cart.effectiveListCounts }}</em>
-    </RouterLink>
+    </router-link>
     <div class="layer" v-if="cart.effectiveList.length && $route.path !== '/cart'">
       <div class="list">
         <div class="item" v-for="item in cart.effectiveList" :key="item.skuId">
-          <RouterLink :to="`/goods/${item.id}`">
+          <router-link :to="`/goods/${item.id}`">
             <img
               :src="`https://vtjoho.b-cdn.net/shoeshop/${item.id}_1.png`"
               :alt="item.name"
@@ -29,7 +29,7 @@ const { cart } = useStore();
               <p class="price">&dollar;{{ item.price }}</p>
               <p class="count">x{{ item.count }}</p>
             </div>
-          </RouterLink>
+          </router-link>
           <i @click="cart.deleteCart([item.skuId])" class="iconfont icon-close-new"></i>
         </div>
       </div>
@@ -38,7 +38,7 @@ const { cart } = useStore();
           <p>共 {{ cart.effectiveListCounts }} 件商品</p>
           <p>&dollar;{{ cart.effectiveListPrice }}</p>
         </div>
-        <SsButton @click="$router.push('/cart')" type="plain"> 去購物車結帳 </SsButton>
+        <ss-button @click="$router.push('/cart')" type="plain"> 去購物車結帳 </ss-button>
       </div>
     </div>
   </div>

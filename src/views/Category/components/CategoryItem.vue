@@ -6,20 +6,20 @@ defineProps({
 </script>
 
 <template>
-  <div class="goods-item">
-    <RouterLink :to="`/goods/${goods.id}`">
+  <div class="category-item">
+    <router-link :to="`/goods/${goods.id}`">
       <div class="img-wrapper">
         <img :src="`https://vtjoho.b-cdn.net/shoeshop/${goods.id}_1.png`" alt="" />
       </div>
       <div class="text-wrapper">
         <p class="name ellipsis">{{ goods.name }}</p>
       </div>
-    </RouterLink>
+    </router-link>
   </div>
 </template>
 
 <style scoped lang="less">
-.goods-item {
+.category-item {
   display: grid;
   grid-template-rows: 260px 50px;
   grid-template-areas: "img" "text";

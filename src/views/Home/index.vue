@@ -1,18 +1,18 @@
 <script setup name="Home">
-import HomeBanner from "./components/home-banner.vue";
-import HomeNew from "./components/home-new.vue";
-import HomeHot from "./components/home-hot.vue";
+import HomeBanner from "./components/HomeBanner.vue";
+import HomeNew from "./components/HomeNew.vue";
+import HomeHot from "./components/HomeHot.vue";
 </script>
 
 <template>
   <div class="page-home">
     <div class="home-entry">
       <div class="container">
-        <HomeBanner />
+        <home-banner />
       </div>
     </div>
-    <HomeNew />
-    <HomeHot />
+    <home-new />
+    <home-hot />
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import OrderItem from "./components/order-item.vue";
+import OrderItem from "./components/OrderItem.vue";
 import useStore from "@/store";
 
 const { order } = useStore();
@@ -15,7 +15,7 @@ onMounted(async () => {
 <template>
   <div class="order">
     <div v-if="orderListInfo?.length !== 0" class="order-list container">
-      <OrderItem v-for="item in orderListInfo" :key="item.orderId" :order="item" />
+      <order-item v-for="item in orderListInfo" :key="item.orderId" :order="item" />
     </div>
     <div v-else class="empty-order container">
       <p>目前沒有訂單</p>

@@ -10,11 +10,11 @@ const home = [
 <template>
   <ul class="app-header-nav">
     <li class="home">
-      <RouterLink to="/">首頁</RouterLink>
+      <router-link to="/">首頁</router-link>
     </li>
     <template v-if="home.length > 0">
       <li v-for="item in home" :key="item.id">
-        <RouterLink :to="`/category/${item.id}`">{{ item.name }}</RouterLink>
+        <router-link :to="`/category/${item.id}`">{{ item.name }}</router-link>
       </li>
     </template>
   </ul>

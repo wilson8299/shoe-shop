@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from "vue-router";
-import HomePanel from "./home-panel.vue";
+import HomePanel from "./HomePanel.vue";
 import shoe from "@/mock/shoe.json";
 
 const newGoodsList = shoe.data.slice(4, 8);
@@ -8,11 +8,11 @@ const newGoodsList = shoe.data.slice(4, 8);
 
 <template>
   <div class="home-new">
-    <HomePanel title="熱銷商品" sub-title="">
+    <home-panel title="熱銷商品" sub-title="">
       <template #right><span></span></template>
       <ul class="goods-list">
         <li v-for="item in newGoodsList" :key="item.id">
-          <RouterLink :to="`/goods/${item.id}`">
+          <router-link :to="`/goods/${item.id}`">
             <div class="img-wrapper">
               <img :src="`https://vtjoho.b-cdn.net/shoeshop/${item.id}_1.png`" alt="" />
             </div>
@@ -20,10 +20,10 @@ const newGoodsList = shoe.data.slice(4, 8);
               <p class="name ellipsis">{{ item.name }}</p>
               <p class="price">&dollar;{{ item.price }}</p>
             </div>
-          </RouterLink>
+          </router-link>
         </li>
       </ul>
-    </HomePanel>
+    </home-panel>
   </div>
 </template>
 

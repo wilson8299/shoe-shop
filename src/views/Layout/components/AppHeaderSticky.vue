@@ -1,15 +1,15 @@
 <script setup>
 import { RouterLink } from "vue-router";
 import { useWindowScroll } from "@vueuse/core";
-import AppHeaderNav from "./app-header-nav.vue";
+import AppHeaderNav from "./AppHeaderNav.vue";
 const { y } = useWindowScroll();
 </script>
 
 <template>
   <div class="app-header-sticky" :class="{ show: y > 78 }">
     <div class="container">
-      <RouterLink class="logo" to="/" />
-      <AppHeaderNav />
+      <router-link class="logo" to="/" />
+      <app-header-nav />
     </div>
   </div>
 </template>

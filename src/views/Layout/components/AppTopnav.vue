@@ -1,9 +1,13 @@
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
+
 <template>
   <nav class="app-topnav">
     <div class="container">
       <ul>
-        <li><RouterLink to="/order">我的訂單</RouterLink></li>
-        <li><RouterLink to="/cart">購物車</RouterLink></li>
+        <li><router-link to="/order">我的訂單</router-link></li>
+        <li><router-link to="/cart">購物車</router-link></li>
       </ul>
     </div>
   </nav>

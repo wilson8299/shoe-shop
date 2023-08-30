@@ -1,19 +1,19 @@
 <script setup>
-import AppTopnav from "./components/app-topnav.vue";
-import AppHeader from "./components/app-header.vue";
-import AppFooter from "./components/app-footer.vue";
-import AppHeaderSticky from "./components/app-header-sticky.vue";
+import AppTopnav from "./components/AppTopnav.vue";
+import AppHeader from "./components/AppHeader.vue";
+import AppFooter from "./components/AppFooter.vue";
+import AppHeaderSticky from "./components/AppHeaderSticky.vue";
 import { RouterView } from "vue-router";
 </script>
 
 <template>
-  <AppTopnav />
-  <AppHeader />
-  <AppHeaderSticky />
+  <app-topnav />
+  <app-header />
+  <app-header-sticky />
   <main class="app-body">
-    <RouterView :key="$route.fullPath" />
+    <router-view :key="$route.fullPath" />
   </main>
-  <AppFooter />
+  <app-footer />
 </template>
 
 <style>

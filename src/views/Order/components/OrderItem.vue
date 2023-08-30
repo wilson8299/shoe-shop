@@ -17,7 +17,7 @@ const props = defineProps({
       <div class="column goods">
         <ul>
           <li v-for="item in order.goods" :key="item.id">
-            <RouterLink :to="`/goods/${item.id}`">
+            <router-link :to="`/goods/${item.id}`">
               <span class="image" href="javascript:;">
                 <img
                   :src="`https://vtjoho.b-cdn.net/shoeshop/${item.id}_1.png`"
@@ -29,7 +29,7 @@ const props = defineProps({
                   {{ item.name }}
                 </p>
               </div>
-            </RouterLink>
+            </router-link>
             <div class="price">&dollar;{{ item.price }}</div>
             <div class="price">size: {{ item.size }}</div>
             <div class="count">x&nbsp;{{ item.count }}</div>

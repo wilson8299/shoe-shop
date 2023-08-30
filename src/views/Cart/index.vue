@@ -48,7 +48,7 @@ const goToCheckout = () => {
           <thead>
             <tr>
               <th width="120">
-                <SsCheckbox v-model="isAllSelected">全選</SsCheckbox>
+                <ss-checkbox v-model="isAllSelected">全選</ss-checkbox>
               </th>
               <th width="400">商品資訊</th>
               <th width="220">單價</th>
@@ -61,14 +61,14 @@ const goToCheckout = () => {
           <tbody>
             <tr v-for="item in cart.effectiveList" :key="item.skuId">
               <td>
-                <SsCheckbox
+                <ss-checkbox
                   :model-value="item.selected"
                   @change="(selected) => changeSeleted(item.skuId, selected)"
                 />
               </td>
               <td>
                 <div class="goods">
-                  <RouterLink :to="`/goods/${item.id}`">
+                  <router-link :to="`/goods/${item.id}`">
                     <img
                       :src="`https://vtjoho.b-cdn.net/shoeshop/${item.id}_1.png`"
                       :alt="item.name"
@@ -79,7 +79,7 @@ const goToCheckout = () => {
                         {{ item.name }}
                       </p>
                     </div>
-                  </RouterLink>
+                  </router-link>
                 </div>
               </td>
               <td class="tc">
@@ -89,7 +89,7 @@ const goToCheckout = () => {
                 <p>{{ item.size }}</p>
               </td>
               <td class="tc">
-                <SsCount
+                <ss-count
                   :model-value="item.count"
                   @change="(count) => changeCount(item.skuId, count)"
                   :min="1"
@@ -118,9 +118,9 @@ const goToCheckout = () => {
                 <div class="cart-none" style="text-align: center">
                   <p>購物車內暫時沒有商品</p>
                   <div class="btn" style="margin: 20px">
-                    <SsButton @click="$router.push('/')" type="primary">
+                    <ss-button @click="$router.push('/')" type="primary">
                       繼續逛逛
-                    </SsButton>
+                    </ss-button>
                   </div>
                 </div>
               </td>
@@ -134,7 +134,7 @@ const goToCheckout = () => {
           共 {{ effectiveListCounts }} 件有效商品， 以選擇 {{ selectedListCounts }} 件，
           商品總額：
           <span class="red">&dollar;{{ selectedListPrice }}</span>
-          <SsButton @click="goToCheckout" type="primary">下單</SsButton>
+          <ss-button @click="goToCheckout" type="primary">下單</ss-button>
         </div>
       </div>
     </div>

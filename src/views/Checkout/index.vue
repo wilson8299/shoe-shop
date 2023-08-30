@@ -121,7 +121,7 @@ const submitCheckout = async () => {
             <tbody>
               <tr v-for="item in checkoutInfo.goods" :key="item.skuId">
                 <td>
-                  <RouterLink :to="`/goods/${item.id}`" class="info">
+                  <router-link :to="`/goods/${item.id}`" class="info">
                     <img
                       :src="`https://vtjoho.b-cdn.net/shoeshop/${item.id}_1.png`"
                       alt=""
@@ -129,7 +129,7 @@ const submitCheckout = async () => {
                     <div class="right">
                       <p>{{ item.name }}</p>
                     </div>
-                  </RouterLink>
+                  </router-link>
                 </td>
                 <td>&dollar;{{ item.price }}</td>
                 <td>{{ item.size }}</td>
@@ -193,7 +193,7 @@ const submitCheckout = async () => {
           </div>
         </div>
         <div class="submit">
-          <SsButton @click="submitCheckout" type="primary">提交訂單</SsButton>
+          <ss-button @click="submitCheckout" type="primary">提交訂單</ss-button>
         </div>
       </div>
     </div>

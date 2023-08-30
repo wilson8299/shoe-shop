@@ -1,12 +1,12 @@
 <script setup>
 import { useRoute } from "vue-router";
 import { onMounted, ref } from "vue";
-import GoodsItem from "./components/goods-item.vue";
+import CategoryItem from "./components/CategoryItem.vue";
 import shoe from "@/mock/shoe.json";
 
-const route = useRoute();
-const id = route.params.id;
-
+const {
+  params: { id },
+} = useRoute();
 const shoes = ref();
 
 onMounted(async () => {
@@ -15,9 +15,9 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="container category">
+  <div class="category container">
     <div class="items">
-      <GoodsItem v-for="goods in shoes" :goods="goods" :key="goods.id" />
+      <category-item v-for="goods in shoes" :goods="goods" :key="goods.id" />
     </div>
   </div>
 </template>
